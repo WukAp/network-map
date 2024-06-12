@@ -1,0 +1,18 @@
+[    
+    { "data": { "id": "db1" }, "classes": "db", "group": "nodes" },
+    { "data": { "id": "server1" }, "classes": "server", "group": "nodes" },
+    { "data": { "id": "server2" }, "classes": "server", "group": "nodes" },
+    { "data": { "id": "filter1" }, "classes": "filter", "group": "nodes" },
+    { "data": { "id": "filter2"}, "classes": "filter", "group": "nodes" },
+    { "data": { "id": "db2"},  "classes": "db", "group": "nodes" },
+    { "data": { "id": "filter3" }, "classes": "filter", "group": "nodes" },
+    { "data": { "id": "server4" }, "classes": "server", "group": "nodes" },
+    
+    { "data": { "source": "db1", "target": "server1" }, "group": "edges" },
+    { "data": { "source": "server1", "target": "server2" }, "group": "edges" },
+    { "data": { "source": "server1", "target": "db2" }, "group": "edges" },
+    { "data": { "source": "db2", "target": "filter3" }, "group": "edges" },
+    { "data": { "source": "db2", "target": "server4" }, "group": "edges" },
+    { "data": { "source": "server2", "target": "filter1" }, "group": "edges" },
+    { "data": { "source": "filter1", "target": "filter2" }, "group": "edges" }
+]

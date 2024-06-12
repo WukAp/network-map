@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cytoscape": "^3.29.2",
+    "cytoscape-klay": "^3.1.4"
+  }
+}
