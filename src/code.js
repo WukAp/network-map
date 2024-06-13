@@ -18,8 +18,8 @@
           'background-fit': 'cover',
           'border-color': '#000',
           'border-width': 3,
-          'border-opacity': 0.5,
-  //        'label': 'data(id)'
+//          'label': 'data(id)',
+          'border-opacity': 0.5
         
         })
       .selector('edge')
