@@ -19,9 +19,16 @@
           'border-color': '#000',
           'border-width': 3,
 //          'label': 'data(id)',
+          'font-size': 15,
+          'color': 'black',
+          'text-valign': 'bottom',
           'border-opacity': 0.5
         
         })
+        .selector('.cyto-label')
+          .css({
+            'background-color':'black'
+          })
       .selector('edge')
         .css({
           'curve-style': 'bezier',
@@ -45,4 +52,3 @@
         elements: fetch('../resources/example-graph/planar-chain.json').then(function( res ){ return res.json(); })
     
   });
-
