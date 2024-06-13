@@ -24,6 +24,7 @@
         .css({
           'curve-style': 'bezier',
           'width': 2,
+          //'target-arrow-shape': 'triangle',
           'line-color': '#aaaaaa',
           'target-arrow-color': '#aaaaaa'
         })
